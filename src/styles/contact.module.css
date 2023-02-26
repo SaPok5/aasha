@@ -1,4 +1,4 @@
-body {
+.body {
   background-color: #fff;
   color: #333;
 }
@@ -12,8 +12,8 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-input[type='text'],
-input[type='tel'] {
+.input[type='text'],
+.input[type='tel'] {
   display: block;
   width: 100%;
   padding: 10px;
@@ -24,7 +24,7 @@ input[type='tel'] {
   color: #333;
 }
 
-button[type='submit'] {
+.button[type='submit'] {
   display: block;
   width: 100%;
   padding: 10px;
@@ -37,11 +37,11 @@ button[type='submit'] {
   cursor: pointer;
 }
 
-button[type='submit']:hover {
+.button[type='submit']:hover {
   background-color: #ffb6c1;
 }
 
-label {
+.label {
   display: block;
   margin-bottom: 5px;
   color: #333;
@@ -54,4 +54,3 @@ label {
     padding: 10px;
   }
 }
-
